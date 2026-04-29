@@ -17,7 +17,7 @@
                     <ul class="dropdown-menu">
                         {% for area_id in site.data.areas %}
                         {% assign area = area_id[1] %}
-                        <li><a href="{{ area_id[0] | relative_url }}">{{ area.full_name }}</a></li>
+                        <li><a href="{{ area_id[0] | relative_url }}/">{{ area.full_name }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
