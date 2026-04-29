@@ -24,3 +24,19 @@ title: 首页
 {% endif %}
 </section>
 
+<section class="decisions-section">
+    <h2>最近决策</h2>
+    <div class="decisions-list">
+        {% for post in site.decisions limit:5 %}
+        <article class="decision-item">
+            <span class="decision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        </article>
+        {% endfor %}
+    </div>
+    
+{% if site.decisions.size > 6 %}
+    <a href="{{ '/decisions/' | relative_url }}" class="view-all">查看全部决策</a>
+{% endif %}
+</section>
+
