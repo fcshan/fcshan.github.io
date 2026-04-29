@@ -87,17 +87,13 @@ areas:
   aidingbao:
     name: "爱丁堡"
     phase: "1期"
-    full_name: "爱丁堡1期"
-    description: "翡翠山城别墅区一期"
-    total_houses: ?
-    built_year: ?
+    full_name: "爱丁堡（1期）"
+    description: "翡翠山城别墅区一期住宅区"
   hongjun:
     name: "红郡"
     phase: "2期"
-    full_name: "红郡2期"
-    description: "翡翠山城别墅区二期"
-    total_houses: ?
-    built_year: ?
+    full_name: "红郡（2期）"
+    description: "翡翠山城别墅区二期住宅区"
 
 # 业主大会信息
 committee:

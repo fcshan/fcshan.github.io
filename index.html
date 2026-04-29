@@ -1,0 +1,50 @@
+---
+layout: default
+title: 首页
+---
+
+<div class="hero">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+</div>
+
+<section class="announcements-section">
+    <h2>最新公告</h2>
+    <div class="announcements-list">
+        {% for post in site.announcements limit:5 %}
+        <article class="announcement-item">
+            <span class="announcement-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.area %}
+            <span class="announcement-area">{{ post.area }}</span>
+            {% endif %}
+        </article>
+        {% endfor %}
+    </div>
+    <a href="{{ '/announcements/' | relative_url }}" class="view-all">查看全部公告</a>
+</section>
+
+<section class="areas-section">
+    <h2>小区区域</h2>
+    <div class="area-cards">
+        {% for area_id in site.data.areas %}
+        {% assign area = area_id[1] %}
+        <div class="area-card">
+            <h2>{{ area.full_name }}</h2>
+            <p class="phase">第 {{ area.phase }} 期</p>
+            <p>{{ area.description }}</p>
+            <a href="{{ area_id[0] | relative_url }}/">了解详情 →</a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="quick-links">
+    <h2>快捷链接</h2>
+    <div class="links-grid">
+        <a href="{{ '/decisions/' | relative_url }}" class="quick-link">决策公示库</a>
+        <a href="{{ '/finance/' | relative_url }}" class="quick-link">财务公开</a>
+        <a href="{{ '/projects/' | relative_url }}" class="quick-link">项目公示</a>
+        <a href="{{ '/rules/' | relative_url }}" class="quick-link">规章制度</a>
+    </div>
+</section>

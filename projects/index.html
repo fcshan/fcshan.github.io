@@ -1,0 +1,22 @@
+---
+layout: default
+title: 项目公示
+---
+
+<div class="hero">
+    <h1>项目公示</h1>
+    <p>小区改造、维修工程方案、招投标信息、施工进度</p>
+</div>
+
+<div class="projects-section">
+    {% for post in site.projects %}
+    <article class="project-item">
+        <span class="project-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.area %}
+        <span class="project-area">{{ post.area }}</span>
+        {% endif %}
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+</div>

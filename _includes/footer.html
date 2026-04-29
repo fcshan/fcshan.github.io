@@ -1,0 +1,21 @@
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>{{ site.title }}</h3>
+            <p>{{ site.committee.name }}</p>
+        </div>
+        <div class="footer-section">
+            <h4>联系方式</h4>
+            <p>{{ site.committee.office_address }}</p>
+            <p>接待时间：{{ site.committee.office_hours }}</p>
+            <p>电话：{{ site.committee.contact_phone }}</p>
+        </div>
+        <div class="footer-section">
+            <h4>法律声明</h4>
+            <p class="disclaimer">{{ site.disclaimer }}</p>
+        </div>
+        <div class="footer-bottom">
+            <p>{{ site.copyright }}</p>
+        </div>
+    </div>
+</footer>

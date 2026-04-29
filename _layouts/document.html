@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="document-page">
+    <header class="document-header">
+        <span class="document-date">{{ page.date | date: "%Y-%m-%d" }}</span>
+        <h1 class="document-title">{{ page.title }}</h1>
+        {% if page.area %}
+        <span class="document-area">{{ page.area }}</span>
+        {% endif %}
+    </header>
+    <div class="document-content">
+        {{ content }}
+    </div>
+</article>

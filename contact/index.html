@@ -1,0 +1,81 @@
+---
+layout: default
+title: 联系方式
+---
+
+<div class="hero">
+    <h1>联系方式</h1>
+    <p>业委会办公地址、接待时间、物业监督电话</p>
+</div>
+
+<div class="contact-section">
+    <h2>业主委员会</h2>
+    <table class="contact-table">
+        <tr>
+            <th>办公地址</th>
+            <td>{{ site.committee.office_address }}</td>
+        </tr>
+        <tr>
+            <th>接待时间</th>
+            <td>{{ site.committee.office_hours }}</td>
+        </tr>
+        <tr>
+            <th>联系电话</th>
+            <td>{{ site.committee.contact_phone }}</td>
+        </tr>
+        <tr>
+            <th>电子邮箱</th>
+            <td>{{ site.committee.email }}</td>
+        </tr>
+    </table>
+
+    <h2>监督部门</h2>
+    <table class="contact-table">
+        <tr>
+            <th>监督单位</th>
+            <td>{{ site.committee.supervisor }}</td>
+        </tr>
+        <tr>
+            <th>监督电话</th>
+            <td>{{ site.committee.supervisor_phone }}</td>
+        </tr>
+    </table>
+
+    <div class="legal-notice">
+        <h3>法律声明</h3>
+        <p>{{ site.disclaimer }}</p>
+    </div>
+</div>
+
+<style>
+.contact-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+.contact-table th, .contact-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.contact-table th {
+    width: 150px;
+    color: #666;
+}
+.legal-notice {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+.legal-notice h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+.legal-notice p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+}
+</style>

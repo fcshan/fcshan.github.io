@@ -1,0 +1,19 @@
+---
+layout: default
+title: 规章制度
+---
+
+<div class="hero">
+    <h1>规章制度</h1>
+    <p>业主管理规约、业主大会议事规则、业委会工作规则</p>
+</div>
+
+<div class="rules-section">
+    {% for post in site.rules %}
+    <article class="rule-item">
+        <span class="rule-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+</div>

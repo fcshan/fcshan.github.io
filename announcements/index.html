@@ -1,0 +1,22 @@
+---
+layout: default
+title: 公告通知
+---
+
+<div class="hero">
+    <h1>公告通知</h1>
+    <p>最新业主大会决议、会议通知、紧急公示</p>
+</div>
+
+<div class="announcements-list">
+    {% for post in site.announcements %}
+    <article class="announcement-item">
+        <span class="announcement-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.area %}
+        <span class="announcement-area">{{ post.area }}</span>
+        {% endif %}
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+</div>

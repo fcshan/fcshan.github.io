@@ -1,0 +1,22 @@
+---
+layout: default
+title: 决策公示库
+---
+
+<div class="hero">
+    <h1>决策公示库</h1>
+    <p>历次业主大会表决结果、会议纪要、投票统计</p>
+</div>
+
+<div class="decisions-list">
+    {% for post in site.decisions %}
+    <article class="decision-item">
+        <span class="decision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.area %}
+        <span class="decision-area">{{ post.area }}</span>
+        {% endif %}
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+</div>

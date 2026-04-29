@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="area-page">
+    <header class="area-header">
+        <h1>{{ page.title }}</h1>
+        <p class="area-description">{{ page.description }}</p>
+    </header>
+    <div class="area-content">
+        {{ content }}
+    </div>
+    <section class="area-links">
+        <h2>相关链接</h2>
+        <ul>
+            <li><a href="{{ '/announcements/' | relative_url }}">查看公告</a></li>
+            <li><a href="{{ '/decisions/' | relative_url }}">查看决策公示</a></li>
+        </ul>
+    </section>
+</div>
