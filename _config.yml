@@ -6,7 +6,7 @@ title: "翡翠山城别墅区"
 subtitle: "业主公共事务信息公示平台"
 description: "翡翠山城别墅区（爱丁堡·红郡）业主大会官方信息公示平台"
 url: "https://fcshan.github.io"
-baseurl: "/fcshan.github.io"
+baseurl:
 
 # 时区与语言
 timezone: Asia/Shanghai
