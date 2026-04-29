@@ -1,3 +1,134 @@
-theme: jekyll-theme-minimal
-title: 翡翠山城别墅区信息公示
-description: 翡翠山城爱丁堡(一期),翡翠山城红郡(二期) 公共信息公示网站
+# 翡翠山城别墅区 业主公示网站配置
+# ============================================
+
+# 站点基础信息
+title: "翡翠山城别墅区"
+subtitle: "业主公共事务信息公示平台"
+description: "翡翠山城别墅区（爱丁堡·红郡）业主大会官方信息公示平台"
+url: "https://fcshan.github.io"
+baseurl: "/fcshan.github.io"
+
+# 时区与语言
+timezone: Asia/Shanghai
+lang: zh-CN
+
+# 构建配置
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+# Jekyll 插件（GitHub Pages 白名单内）
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# 分页配置
+paginate: 10
+paginate_path: "/announcements/page/:num/"
+
+# 集合配置
+collections:
+  announcements:
+    output: true
+    permalink: /announcements/:name/
+  decisions:
+    output: true
+    permalink: /decisions/:name/
+  finance:
+    output: true
+    permalink: /finance/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+  rules:
+    output: true
+    permalink: /rules/:name/
+  areas:
+    output: true
+    permalink: /areas/:name/
+
+# 默认 Front Matter
+defaults:
+  - scope:
+      path: ""
+      type: "announcements"
+    values:
+      layout: "announcement"
+  - scope:
+      path: ""
+      type: "decisions"
+    values:
+      layout: "document"
+  - scope:
+      path: ""
+      type: "finance"
+    values:
+      layout: "document"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "document"
+  - scope:
+      path: ""
+      type: "rules"
+    values:
+      layout: "document"
+  - scope:
+      path: ""
+      type: "areas"
+    values:
+      layout: "area"
+
+# 小区区域配置
+areas:
+  aidingbao:
+    name: "爱丁堡"
+    phase: "1期"
+    full_name: "爱丁堡1期"
+    description: "翡翠山城别墅区一期"
+    total_houses: ?
+    built_year: ?
+  hongjun:
+    name: "红郡"
+    phase: "2期"
+    full_name: "红郡2期"
+    description: "翡翠山城别墅区二期"
+    total_houses: ?
+    built_year: ?
+
+# 业主大会信息
+committee:
+  name: "翡翠山城别墅区业主主大会"
+  term: "第一次大会"
+  established_date: "2026-03-15"
+  office_address: "线上微信群"
+  office_hours: "每周六 14:00-17:00"
+  contact_phone: "0755-XXXXXXXX"
+  email: "committee@feicuishancheng.example.com"
+  supervisor: "惠州市住房和建设局 / 大亚湾西区街道办事处？TODO"
+  supervisor_phone: "0755-XXXXXXXX"
+
+# 免责声明（全局引用）
+disclaimer: >
+  本网站为翡翠山城别墅区业主大会依法设立的信息公示平台，旨在提升小区公共事务透明度。
+  网站所载内容均为业主大会依法定程序形成的结果性信息。
+  本网站不具备在线投票、在线表决功能，小区重大事项决策以书面签名或法律法规认可的其他表决方式为准。
+  如对公示内容有异议，请通过书面形式向业主大会或相关部门提出。
+
+# 版权信息
+copyright: "© 2024-2026 翡翠山城别墅区业主大会 版权所有"
+
+# 排除文件
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
