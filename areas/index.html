@@ -13,7 +13,7 @@ title: 小区区域
     {% assign area = area_id[1] %}
     <div class="area-card">
         <h2>{{ area.full_name }}</h2>
-        <p class="phase">第 {{ area.phase }} 期</p>
+        <p class="phase">{{ area.phase }}</p>
         <p>{{ area.description }}</p>
         <!-- <a href="{{ area_id[0] | relative_url }}/">了解详情 →</a> -->
     </div>
