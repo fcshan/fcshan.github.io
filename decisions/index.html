@@ -13,10 +13,6 @@ title: 决策公示库
     <article class="decision-item">
         <span class="decision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        {% if post.area %}
-        <span class="decision-area">{{ post.area }}</span>
-        {% endif %}
-        <p>{{ post.excerpt }}</p>
     </article>
     {% endfor %}
 </div>

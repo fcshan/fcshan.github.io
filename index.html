@@ -15,9 +15,6 @@ title: 首页
         <article class="announcement-item">
             <span class="announcement-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            {% if post.area %}
-            <span class="announcement-area">{{ post.area }}</span>
-            {% endif %}
         </article>
         {% endfor %}
     </div>
