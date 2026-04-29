@@ -6,21 +6,21 @@
         <nav class="site-nav">
             <ul class="nav-list">
                 <li><a href="{{ '/' | relative_url }}">首页</a></li>
-                <li class="dropdown">
-                    <a href="{{ '/areas/' | relative_url }}">小区区域</a>
-                    <ul class="dropdown-menu">
-                        {% for area_id in site.data.areas %}
-                        {% assign area = area_id[1] %}
-                        <li><a href="{{ area_id[0] | relative_url }}/">{{ area.full_name }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
                 <li><a href="{{ '/announcements/' | relative_url }}">公告</a></li>
                 <li><a href="{{ '/decisions/' | relative_url }}">决策公示</a></li>
                 <li><a href="{{ '/finance/' | relative_url }}">财务公开</a></li>
                 <li><a href="{{ '/projects/' | relative_url }}">项目公示</a></li>
                 <li><a href="{{ '/rules/' | relative_url }}">规章制度</a></li>
                 <li><a href="{{ '/contact/' | relative_url }}">联系方式</a></li>
+                <li class="dropdown">
+                    <a href="{{ '/areas/' | relative_url }}">小区区域</a>
+                    <ul class="dropdown-menu">
+                        {% for area_id in site.data.areas %}
+                        {% assign area = area_id[1] %}
+                        <li><a href="{{ area_id[0] | relative_url }}">{{ area.full_name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
