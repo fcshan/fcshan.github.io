@@ -9,7 +9,8 @@ title: 规章制度
 </div>
 
 <div class="rules-section">
-    {% for post in site.rules %}
+    {% assign sorted_rules = site.rules | sort: 'name' %}
+{% for post in sorted_rules %}
     <article class="rule-item">
         <span class="rule-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
