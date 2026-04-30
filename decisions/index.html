@@ -9,7 +9,8 @@ title: 决策公示
 </div>
 
 <div class="decisions-list">
-    {% for post in site.decisions %}
+    {% assign sorted_decisions = site.decisions | sort: 'date' | reverse %}
+{% for post in sorted_decisions %}
     <article class="decision-item">
         <span class="decision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

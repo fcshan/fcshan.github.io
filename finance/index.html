@@ -11,7 +11,8 @@ title: 财务公开
 
 
 <div class="finance-list">
-    {% for post in site.finance %}
+    {% assign sorted_finance = site.finance | sort: 'date' | reverse %}
+{% for post in sorted_finance %}
     <article class="finance-item">
         <span class="finance-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

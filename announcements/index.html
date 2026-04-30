@@ -9,7 +9,8 @@ title: 公告通知
 </div>
 
 <div class="announcements-list">
-    {% for post in site.announcements %}
+    {% assign sorted_announcements = site.announcements | sort: 'date' | reverse %}
+{% for post in sorted_announcements %}
     <article class="announcement-item">
         <span class="announcement-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
