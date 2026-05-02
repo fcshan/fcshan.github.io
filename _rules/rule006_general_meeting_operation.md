@@ -918,4 +918,4 @@ ____年____月____日 09:00 — ____年____月____日 22:00
 
 ---
 
-*本手册同步发布于小区GitHub Pages公示站：[https://your-domain.com/rules/owners-meeting-manual/]*
+*本手册同步发布于小区GitHub Pages公示站：[https://fcshan.github.io/rules/rule006-general-meeting-operation/]*

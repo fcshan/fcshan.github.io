@@ -831,4 +831,4 @@ A：联系业委会或粤省事客服（12345）。
 
 ---
 
-*本规则同步发布于小区GitHub Pages公示站：[https://your-domain.com/rules/owners-meeting-rules/]*
+*本规则同步发布于小区GitHub Pages公示站：[https://fcshan.github.io/rules/rule003-general-meeting-procedure/]*

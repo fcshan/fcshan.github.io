@@ -651,4 +651,4 @@ ____年____月____日
 
 ---
 
-*本规则同步发布于小区GitHub Pages公示站：[https://your-domain.com/rules/committee-work-rules/]*
+*本规则同步发布于小区GitHub Pages公示站：[https://fcshan.github.io/rules/rule005-owner-committee-working/]*

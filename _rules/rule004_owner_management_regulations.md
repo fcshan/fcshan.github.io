@@ -637,4 +637,4 @@ excerpt: 翡翠山城别墅区业主管理规约(模板，非正式)
 
 ---
 
-*本规约同步发布于小区GitHub Pages公示站：[https://your-domain.com/rules/management-rules/]*
+*本规约同步发布于小区GitHub Pages公示站：[https://fcshan.github.io/rules/rule004-owner-management-regulations/]*
