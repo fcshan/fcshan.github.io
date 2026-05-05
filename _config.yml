@@ -12,6 +12,8 @@ baseurl:
 timezone: Asia/Shanghai
 lang: zh-CN
 
+google_analytics: G-1QCT69J012
+
 # 构建配置
 markdown: kramdown
 highlighter: rouge
