@@ -2,10 +2,29 @@ aidingbao:
   name: "爱丁堡"
   phase: "1期"
   full_name: "爱丁堡（1期）"
-  description: "翡翠山城别墅区一期住宅区"
+  description: "竣工/交付：2013–2014 年"
 
 hongjun:
   name: "红郡"
   phase: "2期"
   full_name: "红郡（2期）"
-  description: "翡翠山城别墅区二期住宅区"
+  description: "竣工/交付：2016–2017 年"
+
+activity_room:
+  name: "活动室"
+  phase: "1期,2期"
+  full_name: "活动室"
+  description: "翡翠山城别墅区活动室"
+
+community_clubhouse:
+  name: "小区会所"
+  phase: "1期,2期"
+  full_name: "小区会所"
+  description: "翡翠山城别墅区会所"
+
+property_management_center:
+  name: "物业服务中心"
+  phase: "1期,2期"
+  full_name: "物业服务中心"
+  description: "翡翠山城别墅区物业服务中心"
+ 
