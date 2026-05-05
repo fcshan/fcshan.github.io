@@ -12,15 +12,18 @@
                 <li><a href="{{ '/projects/' | relative_url }}">项目公示</a></li>
                 <li><a href="{{ '/rules/' | relative_url }}">规章制度</a></li>
                 <li><a href="{{ '/contact/' | relative_url }}">联系我们</a></li>
-                <li class="dropdown">
+                <li><a href="{{ '/areas/' | relative_url }}">小区区域</a></li>
+                <li><a href="{{ '/services/' | relative_url }}">便民服务</a></li>
+                
+                <!-- <li class="dropdown">
                     <a href="{{ '/areas/' | relative_url }}">小区区域</a>
-                    <!-- <ul class="dropdown-menu">
+                    <ul class="dropdown-menu">
                         {% for area_id in site.data.areas %}
                         {% assign area = area_id[1] %}
                         <li><a>{{ area.full_name }}</a></li>
                         {% endfor %}
-                    </ul> -->
-                </li>
+                    </ul>
+                </li> -->
             </ul>
         </nav>
     </div>
