@@ -1,4 +1,7 @@
 <header class="site-header">
+    {% if site.google_analytics %}
+        {% include google-analytics.html %}
+    {% endif %}
     <div class="header-container">
         <div class="site-brand">
             <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
