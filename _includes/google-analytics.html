@@ -1,8 +1,28 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<!-- Google tag (gtag.js) - 异步加载，带超时处理 -->
 <script>
+(function() {
+  var analyticsId = '{{ site.google_analytics }}';
+  if (!analyticsId) return;
+
+  var timeout = setTimeout(function() {
+    console.warn('Google Analytics timeout, skipping...');
+  }, 2000);
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics }}');
+
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+  script.onload = function() {
+    clearTimeout(timeout);
+    gtag('js', new Date());
+    gtag('config', analyticsId);
+  };
+  script.onerror = function() {
+    clearTimeout(timeout);
+    console.warn('Google Analytics failed to load');
+  };
+  document.head.appendChild(script);
+})();
 </script>
