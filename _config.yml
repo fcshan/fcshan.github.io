@@ -12,7 +12,7 @@ baseurl:
 timezone: Asia/Shanghai
 lang: zh-CN
 
-google_analytics: G-1QCT69J012
+baidu_analytics: 5b03ac55256876f4a15aa6a9b834fc49
 
 # 构建配置
 markdown: kramdown
