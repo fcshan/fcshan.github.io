@@ -354,4 +354,4 @@ excerpt: 自来水公共水管更新项目(模板，非真实)
 
 ---
 
-*本公示同步发布于小区GitHub Pages公示站：[https://your-domain.com/projects/water-pipe-renovation-2026/]*
+*本公示同步发布于小区GitHub Pages公示站：[https://fcshan.github.io/projects/20260415-water-pipe/]*

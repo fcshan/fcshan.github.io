@@ -246,7 +246,7 @@ excerpt: 2026年第一季度翡翠山别墅区公共收益(模板，非真实)
 - **业委会邮箱：** yeweihui@feicuishancheng.com
 - **接待电话：** 0752-XXXXXXX（工作日 9:00-17:00）
 - **办公地址：** 爱丁堡1期会所二楼 业委会办公室
-- **公示网站：** [https://your-domain.com/finance](https://your-domain.com/finance)
+- **公示网站：** [https://fcshan.github.io/finance/20260401-public-revenue/](https://fcshan.github.io/finance/20260401-public-revenue/)
 
 ### 7.3 异议处理
 
