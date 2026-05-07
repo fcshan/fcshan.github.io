@@ -11,7 +11,8 @@ title: 首页
 <section class="announcements-section">
     <h2>最新公告</h2>
     <div class="announcements-list">
-        {% for post in site.announcements limit:5 %}
+        {% assign sorted_announcements = site.announcements | sort: 'date' | reverse %}
+        {% for post in sorted_announcements limit:5 %}
         <article class="announcement-item">
             <span class="announcement-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -27,7 +28,8 @@ title: 首页
 <section class="decisions-section">
     <h2>最近决策</h2>
     <div class="decisions-list">
-        {% for post in site.decisions limit:5 %}
+        {% assign sorted_decisions = site.decisions | sort: 'date' | reverse %}
+        {% for post in sorted_decisions limit:5 %}
         <article class="decision-item">
             <span class="decision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

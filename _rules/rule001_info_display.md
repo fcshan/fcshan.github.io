@@ -37,9 +37,8 @@ excerpt: 信息公示规则：个人信息保护，内容发布边界
 | 财务通报 | 季度汇总，不公开个人缴费明细      | PDF上传公示站             |
 | 紧急通知 | 如紧急情况，可@全员，事后补发正式公告 | 截图存档                 |
 
-
 ## 5. 群规修订与公示
 
 - 本原则由临时业主大会筹备组起草
 - 修订须提前7天在群内公示，收集意见后由临时业主大会筹备组审定
-- 本原则同步发布于小区GitHub Pages公示站：<https://fcshan.github.io/rules/rule001-info-display/>
+- 本原则同步发布于小区GitHub Pages公示站： [https://fcshan.github.io/rules/rule001-info-display/]
