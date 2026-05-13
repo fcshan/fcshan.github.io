@@ -1,7 +1,7 @@
 ---
 layout: document
 title: 物业服务标准（一级标准）(模板，非正式)
-date: 2026-04-29
+date: 2026-05-13
 area: 全区域
 excerpt: 翡翠山城别墅区物业服务一级标准
 ---
