@@ -1,14 +1,13 @@
 ---
 layout: document
-title: 物业服务规范（一级标准）
+title: 物业服务标准（一级标准）(模板，非正式)
 date: 2026-04-29
 area: 全区域
-excerpt: 翡翠山城别墅区物业服务一级标准规范，依据《惠州市普通住宅物业服务等级标准（参考）》一级标准制定
+excerpt: 翡翠山城别墅区物业服务一级标准
 ---
+本标准依据[《惠州市普通住宅物业服务等级标准（参考）》](https://zjj.huizhou.gov.cn/attachment/0/333/333845/5701916.pdf)一级标准制定。
 
 ## 1. 综合管理服务
-
-依据[《惠州市普通住宅物业服务等级标准（参考）》](https://zjj.huizhou.gov.cn/attachment/0/333/333845/5701916.pdf)一级标准制定。
 
 ### 1.1 综合管理服务基本服务内容
 
@@ -203,6 +202,6 @@ excerpt: 翡翠山城别墅区物业服务一级标准规范，依据《惠州�
 
 ### 9.2 修订程序
 
-- 本规范由临时业主大会筹备组起草
+- 本标准由临时业主大会筹备组起草
 - 修订须提前7天公示，收集业主意见后由临时业主大会筹备组审定
-- 本规范同步发布于小区GitHub Pages公示站：<https://fcshan.github.io/rules/rule007-property-service/>
+- 本标准同步发布于小区GitHub Pages公示站：<https://fcshan.github.io/rules/rule007-property-service/>
