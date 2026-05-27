@@ -9,7 +9,8 @@ title: 监督公示
 </div>
 
 <div class="supervision-list">
-    {% for post in site.supervision %}
+    {% assign sorted_supervision = site.supervision | sort: 'date' | reverse %}
+    {% for post in sorted_supervision %}
     <article class="supervision-item">
         <span class="supervision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
