@@ -1,0 +1,54 @@
+---
+layout: default
+title: 监督公示
+---
+
+<div class="hero">
+    <h1>监督公示</h1>
+    <p>政府执法检查、居民投诉处理、水质检测报告等监督信息</p>
+</div>
+
+<div class="supervision-list">
+    {% for post in site.supervision %}
+    <article class="supervision-item">
+        <span class="supervision-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+</div>
+
+<style>
+.supervision-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.supervision-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.supervision-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.supervision-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+.supervision-item h3 {
+    margin: 0.5rem 0;
+    color: #2c3e50;
+}
+.supervision-item h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+.supervision-item h3 a:hover {
+    color: #3498db;
+}
+</style>

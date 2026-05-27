@@ -50,6 +50,9 @@ collections:
   areas:
     output: true
     permalink: /areas/:name/
+  supervision:
+    output: true
+    permalink: /supervision/:name/
 
 # 默认 Front Matter
 defaults:
@@ -83,6 +86,11 @@ defaults:
       type: "areas"
     values:
       layout: "area"
+  - scope:
+      path: ""
+      type: "supervision"
+    values:
+      layout: "document"
 
 # 小区区域配置
 areas:
