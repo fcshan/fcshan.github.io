@@ -4,9 +4,34 @@
 # 站点基础信息
 title: "翡翠山城别墅区"
 subtitle: "业主公共事务信息公示平台"
-description: "翡翠山城别墅区（爱丁堡·红郡）业主大会官方信息公示平台"
+description: "翡翠山城别墅区（爱丁堡·红郡）业主大会官方信息公示平台，提供公告通知、决策公示、财务公开、规章制度、监督公示等小区公共事务信息公开服务"
 url: "https://fcshan.github.io"
 baseurl:
+
+# SEO优化
+keywords:
+  - 翡翠山城别墅区
+  - 业主大会
+  - 业委会
+  - 爱丁堡
+  - 红郡
+  - 惠州大亚湾
+  - 物业服务
+  - 小区公示
+  - 公共事务
+  - 业主维权
+
+twitter:
+  username: ""
+
+og_image: /assets/images/og-image.png
+
+# 组织信息（用于SEO结构化数据）
+name: "翡翠山城别墅区临时业主大会筹备组"
+email: "fcshan-xxx@gmail.com"
+telephone: "0755-XXXXXXXX"
+address:
+  street: "惠州市大亚湾区翡翠山城别墅区"
 
 # 时区与语言
 timezone: Asia/Shanghai

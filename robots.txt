@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fcshan.github.io/sitemap.xml
+
+Host: https://fcshan.github.io
