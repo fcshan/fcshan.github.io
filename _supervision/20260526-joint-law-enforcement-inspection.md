@@ -49,11 +49,17 @@ excerpt: 2026年5月26日政府部门联合执法检查，检查结果公示
 
 ## 5. 检查意外事件
 
-- 金迪物业态度极差，现场威胁政府要到上级投诉，到纪委举报，威胁业主，现场安排人来搅局，并动手打人，已报警处理, 警方已立案
+- 金迪物业态度极差，现场威胁政府要到上级投诉，到纪委举报，威胁业主，现场安排人来搅局，并动手打人，已报警处理, 警方已立案, 已作行政处罚决定
 
 - 在此次执法检查中，金迪物业已提前知晓本次检查，并做了准备的，加岗加人，总部都派出人员支援，小区一切装修全部停工，但仍被业主查出管理存在的问题及不足
 
-  ![行政案件立案告知书](/assets/images/supervision/20260526_case.jpg){: style="max-width: 60%; height: auto;"}
+### 行政案件立案告知书
+
+![行政案件立案告知书](/assets/images/supervision/20260526_case.jpg){: style="max-width: 60%; height: auto;"}
+
+### 行政处罚决定书
+
+![行政处罚决定书](/assets/images/supervision/20260526_punish.jpg){: style="max-width: 60%; height: auto;"}
 
 ## 6. 调查官方回复
 
@@ -62,5 +68,4 @@ excerpt: 2026年5月26日政府部门联合执法检查，检查结果公示
   ![调查官方回复1](/assets/images/supervision/20260526_reply1.jpg){: style="max-width: 60%; height: auto;"}
   ![调查官方回复2](/assets/images/supervision/20260526_reply2.jpg){: style="max-width: 60%; height: auto;"}
 
-  
 *本公示内容基于联合执法检查实际情况整理，如有出入欢迎业主指正。*
