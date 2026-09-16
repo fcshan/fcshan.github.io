@@ -43,3 +43,7 @@ excerpt: 定于2026年9月15日召开业主大会
 
 ## 温馨提示
 根据《中华人民共和国民法典》第九百五十条规定，物业服务合同终止后，在新物业服务人入驻或业主确定自行管理前，原物业服务人需持续开展物业服务工作，业主应依法支付该阶段的物业服务费。
+
+![公示1](/assets/images/announcements/20260828/notice1.jpg){: style="max-width: 60%; height: auto;"}
+
+![公示2](/assets/images/announcements/20260828/notice2.jpg){: style="max-width: 60%; height: auto;"}
