@@ -6,5 +6,11 @@ area: 全区域
 excerpt: 2026年9月15日召开业主大会，投票表决结果公示
 ---
 
+## 一、投票明细
+
+[投票明细下载](/assets/images/decisions/20261016/惠州市智慧物业服务平台.pdf)
+
+## 二、小区内张贴公告
+
 ![公示1](/assets/images/decisions/20261016/vote_result_doc.jpg){: style="max-width: 60%; height: auto;"}
 
